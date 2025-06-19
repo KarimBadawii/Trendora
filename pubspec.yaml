@@ -1,0 +1,43 @@
+name: trendora
+description: Trendora is a cross-platform fashion e-commerce app built with Flutter. It offers seamless browsing, filtering, cart management, and secure checkout on iOS and Android devices, providing a modern and engaging shopping experience for fashion retailers and customers.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  cached_network_image:
+  carousel_slider_plus:
+  flutter:
+    sdk: flutter
+  flutter_screenutil:
+  flutter_slidable:
+  auto_size_text:
+  colornames:
+  flutter_svg:
+  flutter_native_splash:
+  readmore:
+  smooth_page_indicator:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/svg_images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-.ttf
+
